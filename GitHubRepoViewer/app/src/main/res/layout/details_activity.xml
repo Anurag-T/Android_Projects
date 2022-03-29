@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_details_repo"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        tools:text="repo_name \nDescription of Repository"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <Button
+        android:id="@+id/button_details_branch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/black"
+
+        android:textSize="22sp"
+        android:text="Branches"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        />
+        <Button
+            android:id="@+id/button_details_issues"
+            android:layout_width="0dp"
+            android:text="issues(0)"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:backgroundTint="@null"
+            android:textColor="@color/black"
+            android:background="@drawable/button_background"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

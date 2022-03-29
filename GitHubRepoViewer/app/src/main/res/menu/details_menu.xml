@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete_menu"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        android:orderInCategory="199"
+        android:title="view in browser"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/browse_menu"
+        android:icon="@drawable/ic_baseline_preview_24"
+        android:orderInCategory="200"
+        android:title="view in browser"
+        app:showAsAction="ifRoom" />
+
+</menu>
